@@ -1,0 +1,30 @@
+{
+    "questions": [
+      {
+        "id": 1,
+        "english": "What is your name?",
+        "bengali": "আপনার নাম কি?"
+      },
+      {
+        "id": 2,
+        "english": "How are you?",
+        "bengali": "আপনি কেমন আছেন?"
+      },
+      {
+        "id": 3,
+        "english": "Where do you live?",
+        "bengali": "আপনি কোথায় থাকেন?"
+      },
+      {
+        "id": 4,
+        "english": "What do you do for a living?",
+        "bengali": "আপনি কি কাজ করেন?"
+      },
+      {
+        "id": 5,
+        "english": "How old are you?",
+        "bengali": "আপনি কত বছরের?"
+      }
+    ]
+  }
+  
