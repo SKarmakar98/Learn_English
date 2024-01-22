@@ -1,0 +1,12 @@
+#display {
+  /* display: none; */
+  border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+/* height: 4rem;
+width: 4rem; */
+flex-direction: column;
+padding:12px;
+}

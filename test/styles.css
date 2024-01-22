@@ -1,0 +1,57 @@
+#toast-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    max-width: 300px;
+    z-index: 9999;
+    top: 0;
+}
+
+.toast {
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateX(0);
+    animation: fadeInVibrate 0.5s ease-out forwards; /* Add combined animation */
+    transition: opacity 0.3s ease-in-out;
+    animation: vibrate 0.3s linear 1; /* Add vibration animation */
+}
+
+.toast-danger {
+    background-color: #ff4d4d; /* Red background for danger */
+    color: #fff;
+}
+
+@keyframes vibrate {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-5px);
+    }
+    50% {
+        transform: translateX(5px);
+    }
+    75% {
+        transform: translateX(-5px);
+    }
+    100% {
+        transform: translateX(5px);
+    }
+}
+@keyframes fadeInVibrate {
+    0% {
+        opacity: 0;
+        transform: translateX(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(-5px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

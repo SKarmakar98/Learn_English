@@ -1,0 +1,8 @@
+.img_div{
+    position:absolute;
+    visibility: visible;
+    background-image: url("https://platinumlist.net/guide/wp-content/uploads/2023/03/IMG-worlds-of-adventure.webp");
+    top: 0; right: 0; bottom: 0; left: 0;
+    background-repeat: no-repeat;
+    -webkit-print-color-adjust: exact;
+}

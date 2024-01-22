@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #notification {
+            display: block;
+            padding: 10px;
+            /* background-color: #3498db; */
+            /* color: #fff; */
+            position: fixed;
+            top: 10px;
+            left: 50%;
+            transform: translateX(-50%);
+            border-radius: 5px;
+            /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+    <title>Display Div with Fade-in</title>
+</head>
+
+<body>
+    <script>
+        function showNotification() {
+            var notificationDiv = document.getElementById("notification");
+            notificationDiv.style.display = "none";
+        }
+
+        // Call the function to show the notification after 3 seconds
+        setTimeout(showNotification, 3000);
+    </script>
+
+    <div id="notification"> <img src="Correct.gif" id="notification" alt="" srcset=""
+            style="height: 20rem; width:20rem; position:absolute; "></div>
+
+
+</body>
+
+</html>
