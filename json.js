@@ -1,9 +1,9 @@
 
 // Using Fetch API to load JSON asynchronously
-fetch('E2Bdatabase.json')
+fetch('word.json')
     .then(response => response.json())
     .then(data => {
-        let randomNumber = Math.ceil(100000 * (Math.random(1, 100)));
+        let randomNumber = Math.ceil(100* (Math.random(1, 100)));
         console.log("Random Number:", randomNumber);
         console.log(data);
         let arrayLength = data[randomNumber].bn;
