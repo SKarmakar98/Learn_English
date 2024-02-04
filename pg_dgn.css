@@ -47,7 +47,7 @@ button {
     transition: 0.2s;
 }
 
-form {
+.form {
     position: absolute;
     padding: 30px 20px;
     width: 320px;

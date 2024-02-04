@@ -1,40 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="pg_dgn.css">
+    <link rel="stylesheet" href="pg_dgn.css" />
     <script src="div_hide.js"></script>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div class="wrapper flex_box">
-
-        <form>
-            <div class="input">
-                <label>
-                    Question
-                </label>
-                <div class="name" type="text" id="question">
-                </div>
-            </div>
-            <div class="input">
-                <label>
-                    comment
-                </label>
-                <textarea placeholder="enter Your Answer..." class="comment" id="anser"></textarea>
-            </div>
-            <div class="button_wrapper">
-                <button>
-                    submit
-                </button>
-            </div>
-        </form>
-        <!-- <img src="Correct.gif" alt="" srcset="" id="notification"> -->
-        <!-- <img src="Wrong.gif" id="notification" alt="" srcset="" style="display: none;"> -->
+      <div class="form">
+        <div class="input">
+          <label> Question </label>
+          <div class="name" type="text" id="question"></div>
+        </div>
+        <div class="input">
+          <label> comment </label>
+          <!-- < name="" id=""> -->
+          <input type="text"
+            placeholder="Enter Your Answer..."
+            class="comment"
+            id="anser"
+          >
+        </div>
+        <div class="button_wrapper">
+          <button id="anser_button">submit</button>
+        </div>
+    </div>
+      <!-- <img src="Correct.gif" alt="" srcset="" id="notification"> -->
+      <!-- <img src="Wrong.gif" id="notification" alt="" srcset="" style="display: none;"> -->
     </div>
 
     <div class="cover"></div>
@@ -42,8 +37,7 @@
     <!-- <div class="sign">
     by masahito / <a href="http://www.ma5a.com/" >ma5a.com</a>
   </div> -->
-</body>
-<script src="pg_dgn.js"></script>
-<script src="json.js"></script>
-
+  </body>
+  <script src="pg_dgn.js"></script>
+  <script src="json.js"></script>
 </html>
